@@ -1,6 +1,6 @@
 # Dockerfile validation
 
-This WIP focuses on automating the validation process of a Dockerfile by by check if the Dockerfile follows security best-practices.
+This WIP project focuses on automating the validation process of a Dockerfile by checking if the Dockerfile follows security best-practices.
 
 - Uses [conftest](https://www.conftest.dev/) to parse the Dockerfile to get structured JSON data to be fed to Cue/OPA
     - `conftest parse Dockerfile > <Dockerfile JSON File NAME>` to convert Dockerfile to JSON
